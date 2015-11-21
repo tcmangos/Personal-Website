@@ -1,13 +1,13 @@
 html(lang="en")
 	head
-		link(rel="stylesheet", type="text/css", href="css/bootstrap.min.css")
-		link(rel="stylesheet", type="text/css", href="css/bootstrap-theme.min.css")
-		link(rel="stylesheet", type="text/css", href="css/main.css")
+		link(rel="stylesheet", type="text/css", href="/css/bootstrap.min.css")
+		link(rel="stylesheet", type="text/css", href="/css/bootstrap-theme.min.css")
+		link(rel="stylesheet", type="text/css", href="/css/main.css")
 		link(rel="stylesheet", type="text/css", href="http://fonts.googleapis.com/css?family=Montserrat:400,700")
 
 		script(src="//use.typekit.net/vmn5vrs.js")
-		script(src="js/jquery-2.1.1.min.js")
-		script(src="bootstrap/js/bootstrap.min.js")
+		script(src="/js/jquery-2.1.1.min.js")
+		script(src="/bootstrap/js/bootstrap.min.js")
 		script.
 			try{Typekit.load();}catch(e){}
 
@@ -17,19 +17,19 @@ html(lang="en")
 	body
 		header.colHeader
 			div.headerLogo
-				a(href="index.html")
+				a(href="/")
 					img(src="/img/logo.png" style="width: 300px; ")
 			ul.menu
 				li
-					a(href="index.html") Home
+					a(href="/") Home
 				li
-					a(href="projects.html") Projects
+					a(href="/projects") Projects
 				li
-					a(href="me.html") Me
+					a(href="/me") Me
 
 			div.headerText
 				center.ctaButtons
-				a.button.first(href="about-me.html").
+				a.button.first(href="/about").
 					About Me
 				a.button(href="ts3server://ts.koruair.info").
 					Teamspeak

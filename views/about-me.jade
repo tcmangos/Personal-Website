@@ -1,0 +1,55 @@
+html(lang="en")
+	head
+		link(rel="stylesheet", type="text/css", href="css/bootstrap.min.css")
+		link(rel="stylesheet", type="text/css", href="css/bootstrap-theme.min.css")
+		link(rel="stylesheet", type="text/css", href="css/main.css")
+		link(rel="stylesheet", type="text/css", href="http://fonts.googleapis.com/css?family=Montserrat:400,700")
+
+		script(src="//use.typekit.net/vmn5vrs.js")
+		script(src="js/jquery-2.1.1.min.js")
+		script(src="bootstrap/js/bootstrap.min.js")
+		script.
+			try{Typekit.load();}catch(e){}
+
+		link(rel='icon', href='/img/favicon.ico', type='image/x-icon')
+		title Tim Mangos
+
+	body
+		header.colHeader
+			div.headerLogo
+				a(href="index.html")
+					img(src="/img/logo.png" style="width: 300px; ")
+			ul.menu
+				li
+					a(href="index.html") Home
+				li
+					a(href="projects.html") Projects
+				li
+					a(href="me.html") Me
+
+			div.headerText
+				center.ctaButtons
+				a.button.first(href="about-me.html").
+					About Me
+				a.button(href="ts3server://ts.koruair.info").
+					Teamspeak
+
+		footer
+			div.inner &copy; Tim Mangos 2015
+				div.socialbar
+					ul
+						li
+							a(href="http://facebook.com/tcmangos")
+								img(src="/img/social_icons/facebook.png" style="width: 30px; ")
+						li
+							a(href="http://twitter.com/timmangos")
+								img(src="/img/social_icons/twitter.png" style="width: 30px; ")
+						li
+							a(href="https://www.youtube.com/channel/UCanaxg5RLbb-oR1YuA2F5GQ")
+								img(src="/img/social_icons/youtube.png" style="width: 30px; ")
+						li
+							a(href="http://linkedin.com/timmangos")
+								img(src="/img/social_icons/linkedin.png" style="width: 30px; ")
+						li
+							a(href="http://google.com/timmangos")
+								img(src="/img/social_icons/google.png" style="width: 30px; ")

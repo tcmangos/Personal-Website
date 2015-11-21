@@ -1,0 +1,400 @@
+html, body, h1 {
+  padding: 0px;
+  margin: 0px;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
+a:hover, a:active {
+  color: #f0f0f0;
+}
+
+p{
+  padding: 0;
+  margin:0;
+}
+
+h2{
+  line-height: 1.2em;
+  font-family: "adobe-garamond-pro";
+  font-size: 32px;
+  text-transform: none;
+  letter-spacing: 0px;
+  font-weight: 400;
+  font-style: normal;
+}
+
+p{
+  padding: 0;
+  margin:0;
+}
+
+.line_break{
+  width:1000px;
+  height:1px;
+  margin:auto;
+  margin-top: 60px;
+  background-color:#DBDBDB;
+}
+
+.colHeader{
+  background: url("/img/7771.png") no-repeat center 0px fixed;
+  /*background-color: #663399;*/
+  background-color: #F44336;
+}
+
+.headerLogo{
+  padding: 2px;
+  padding-left: 10px;
+}
+
+
+header {
+  width: 100%;
+  height: 625px;
+  background-color: #000;
+  min-height: 625px;
+}
+
+header .headerLogo {
+  float: left;
+}
+
+header .menu{
+  list-style-type: none;
+  float: right;
+  padding-top: 30px;
+  margin-right:50px;
+}
+
+header .menu li{
+  display: inline;
+  margin: 0;
+  padding: 0;
+  padding-left:35px;
+  color:#E6E6E6;
+  font-size:14px;
+  font-family: Montserrat, sans-serif;
+  font-size: 13px;
+  text-transform: uppercase;
+  text-decoration: none;
+  letter-spacing: 2px;
+  font-weight: 400;
+  font-style: normal;
+  line-height: 1em;
+  cursor: hand;
+}
+
+header .menu li:hover{
+  color:white;
+}
+
+header .headerText{
+  height:540px;
+  padding-top: 320px;
+}
+
+header .headerText .mainHeading{
+  width: 900px;
+  margin-left:auto;
+  margin-right:auto;
+  padding-top:110px;
+}
+
+header .headerText .mainHeading h3{
+  padding:0;
+  margin:0;
+  line-height: 1.2em;
+  font-family: Montserrat, sans-serif;
+  font-size: 28px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-weight: 500;
+  font-style: normal;
+  color: #fff;
+}
+
+.ctaButtons{
+  padding-top: 50px;
+}
+
+.home_cta{
+  padding-top: 0px;
+  margin: 0;
+}
+
+.first{
+  margin-right:50px;
+}
+
+.button {
+  border: 2px solid #fff;
+  color: black;
+
+  font-family: Montserrat;
+  font-size: 15px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-weight: 400;
+  font-style: normal;
+  text-decoration: none;
+  text-align: center;
+
+  padding-top:13px;
+  padding-bottom:13px;
+  padding-left:30px;
+  padding-right:30px;
+
+  -webkit-transition: color .3s, background-color .3s; /* For Safari 3.1 to 6.0 */
+    transition: color .3s, background-color .3s;
+
+}
+
+
+.cta_text .button{
+  color:black;
+  border: 2px solid #000;
+}
+
+
+.cta_text .button:hover{
+  color:black;
+}
+
+.cta_text{
+  width:100%;
+  text-align: center;
+  margin-top: 70px;
+}
+
+a.button {
+  text-decoration: none;
+}
+
+.button:hover{
+  color:black;
+  background-color: white;
+}
+
+.inverseButton{
+  border: 2px solid #000;
+  color: black;
+
+  font-family: Montserrat;
+  font-size: 15px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-weight: 400;
+  font-style: normal;
+  text-decoration: none;
+  text-align: center;
+
+  padding-top:13px;
+  padding-bottom:13px;
+  padding-left:30px;
+  padding-right:30px;
+
+  -webkit-transition: color .3s, background-color .3s; /* For Safari 3.1 to 6.0 */
+  transition: color .3s, background-color .3s;
+
+}
+
+.inverseButton:hover{
+  color:white;
+  background-color: black;
+  text-decoration: none;
+}
+
+
+
+.sidebar h3{
+  text-align: center;
+}
+
+
+.content{
+  width:1000px;
+  padding-top: 50px;
+  margin:auto;
+  margin-top: 10px;
+}
+.content .sidebar{
+  width:350px;
+  padding-top: 50px;
+  margin-left: 10px;
+}
+
+footer{
+  margin-top: 100px;
+  height: 60px;
+  background-color: white;
+  border-top: solid 2px #E6E6E6;
+}
+footer .socialbar{
+  float: right;
+}
+footer .socialbar li{
+  display: inline;
+
+}
+
+footer .socialbar ul{
+  list-style-type: none;
+  display: block
+}
+
+footer .inner{
+  width: 1000px;
+  margin: auto;
+  line-height: 60px;
+  font-family: Montserrat;
+  font-size: 18px;
+  letter-spacing: 0px;
+  font-weight: 400;
+  font-style: normal;
+  color: #919191;
+}
+
+.content p{
+  width:  1000px;
+  font-family: Montserrat;
+  font-size: 18px;
+  line-height: 1.6em;
+  letter-spacing: 0px;
+  font-weight: 400;
+  font-style: normal;
+  color: #231F20;
+  padding-bottom: 25px;
+}
+
+.spHeader {
+  width: 100%;
+  height: 80px;
+  background-color: #000;
+  min-height: 80px;
+}
+
+.spHeader .headerLogo {
+  float: left;
+}
+
+.spHeader .menu{
+  list-style-type: none;
+  float: right;
+  padding-top: 30px;
+  margin-right:50px;
+}
+
+.spHeader .menu li{
+  display: inline;
+  margin: 0;
+  padding: 0;
+  padding-left:35px;
+  color:#E6E6E6;
+  font-size:14px;
+  font-family: Montserrat, sans-serif;
+  font-size: 13px;
+  text-transform: uppercase;
+  text-decoration: none;
+  letter-spacing: 2px;
+  font-weight: 400;
+  font-style: normal;
+  line-height: 1em;
+  cursor: hand;
+}
+
+.spHeader .menu li:hover{
+  color:white;
+}
+
+.regHeader{
+  font-size: 40px;
+  padding-bottom: 20px;
+}
+
+.regContent{
+  padding-top: 30px;
+}
+
+.registerInfo b{
+  font-size: 20px;
+}
+
+.infoHeader{
+  font-size: 205px;
+}
+
+.registerInfo ul{
+  font-size: 16px;
+  padding-top: 20px;
+  padding-left: 20px;
+}
+
+.row_login{
+  margin: auto;
+  width: 400px;
+}
+
+.registerInfo li{
+  padding-bottom: 10px;
+}
+
+.registerInfo li{
+  font-size: 16px;
+  padding-top: 5px;
+  padding-left: 0px;
+}
+
+.faqList{
+  list-style: none;
+  padding: 0px;
+  padding-top: 5px;
+}
+
+.faqList li h3{
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.faqList li p{
+  font-size: 18px;
+  padding-bottom: 0px;
+  padding-top: 5px;
+}
+
+.faqList li .line_break{
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.truck_cost{
+  color: Red;
+  font-family: Montserrat, sans-serif;
+  font-size: 18px;
+  margin-top: 45px;
+  float: right;
+}
+
+.line_break_fleet{
+  width:1000px;
+  height:1px;
+  margin:auto;
+  margin-top: 35px;
+  background-color:#DBDBDB;
+}
+
+.fleet{
+  margin-top: 35px;
+}
+
+.fleetLink{
+  color: black;
+}
+
+.fleetLink:hover{
+  color: grey;
+  text-decoration: none;
+}
